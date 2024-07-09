@@ -1,0 +1,125 @@
+/* Typography */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  h4, h5, h6 {
+    font-size: 16px;
+  }
+  
+  /* Colors */
+  
+  :root {
+    --primary-color: #337ab7;
+    --secondary-color: #666;
+    --background-color: #f9f9f9;
+    --text-color: #333;
+    --highlight-color: #ffff99;
+    --error-color: #ff0000;
+  }
+  
+  /* Layout */
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Utility classes */
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .mt-10 {
+    margin-top: 10px;
+  }
+  
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+  
+  .ml-10 {
+    margin-left: 10px;
+  }
+  
+  .mr-10 {
+    margin-right: 10px;
+  }
+  
+  .p-10 {
+    padding: 10px;
+  }
+  
+  .pl-10 {
+    padding-left: 10px;
+  }
+  
+  .pr-10 {
+    padding-right: 10px;
+  }
+  
+  .pt-10 {
+    padding-top: 10px;
+  }
+  
+  .pb-10 {
+    padding-bottom: 10px;
+  }
+  
+  /* Other styles */
+  
+  code {
+    font-family: 'Monaco', monospace;
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
